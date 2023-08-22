@@ -1,7 +1,7 @@
 const express = require('express');
 const { User } = require('../model/User');
 const bcrypt = require('bcryptjs');
-const generatetoken = require('../helper/generatetoken');
+const generatetoken = require('../helper/generateToken');
 const getTokenFromHeader = require('../helper/getTokenFromHeader');
 const isLogin = require('../middlewares/isLogin');
 const isAdmin = require('../middlewares/isAdmin');
